@@ -1,28 +1,19 @@
-.App {
-  text-align: center;
+h1 {
+  color: tomato;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.btn {
+  color: #111;
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 3px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.btn--primary {
+  background-color: tomato;
+  border-color: rgb(225, 69, 41);
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.btn--rainbow {
+  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
 }
