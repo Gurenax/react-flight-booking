@@ -3,6 +3,10 @@ h1 {
 }
 
 .btn {
+  font-size: inherit;
+  padding: 0.5em;
+  box-sizing: border-box;
+  
   color: #111;
   background-color: white;
   border: 1px solid #aaa;
